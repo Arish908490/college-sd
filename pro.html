@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to XYZ College</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to XYZ College</h2>
+        <p>Your future starts here!</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>Computer Science</h3>
+                <p>Learn about algorithms, data structures, and more.</p>
+            </div>
+            <div class="course">
+                <h3>Business Administration</h3>
+                <p>Get skills for management, finance, and marketing.</p>
+            </div>
+            <!-- Add more courses as needed -->
+        </div>
+    </section>
+
+    <section id="register">
+        <h2>Register</h2>
+        <form id="register-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="email-login">Email:</label>
+            <input type="email" id="email-login" name="email" required>
+            <label for="password-login">Password:</label>
+            <input type="password" id="password-login" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>XYZ College offers world-class education and facilities to help students achieve their dreams.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 XYZ College. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
